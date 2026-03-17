@@ -1,0 +1,130 @@
+
+\section*{Ex.1 $|x^2+1|<x+1$}
+Per poder llevar el valor absolut passam:
+\begin{equation*}
+|x^2+1|<x+1 \ \Longleftrightarrow \ x^2+1<x+1 \ \wedge \ x^2+1>-x-1
+\end{equation*}
+\\
+Començam per la primera part:
+\\
+\begin{equation*}
+x^2+1<x+1 \ \Leftrightarrow \ x^2-x-2<0 
+\end{equation*}
+\\
+Passam la ineqüació a una equació de segon grau: $x^2-x-2=0$ que té per solucions $x=2 \ \wedge \ x=-1$. \\
+\\
+Cream una taula pels valors:
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{c|c|c}
+$\oplus$ & $\ominus$ & $\oplus$\\
+\hline
+$(-\infty,-1)$ & $(-1,2)$ & $(2,+\infty)$
+\end{tabular}
+\end{center}
+\end{table}
+\\
+Per tant la primera solució és $(-1,2)$.
+\\
+\\
+Ens centram ara en la segona part:
+\begin{equation*}
+x^2+1>-x-1 \ \Leftrightarrow \ x^2+x>0 \ \Leftrightarrow \ x(x+1)>0
+\end{equation*}
+Ara resolem la casuítica:
+\begin{equation*}
+\left.
+\begin{array}{cc}
+\left\lbrace
+\begin{array}{cc}
+x>0\\
+x+1>0
+\end{array}\right.
+\ \Longrightarrow \
+\left\lbrace
+\begin{array}{cc}
+x>0\\
+x>-1
+\end{array}\right.
+\ \Longrightarrow \
+x\in (0,+\infty)
+\\
+\\
+\left\lbrace
+\begin{array}{cc}
+x<0\\
+x+1<0
+\end{array}\right.
+\ \Longrightarrow \
+\left\lbrace
+\begin{array}{cc}
+x<0\\
+x<-1
+\end{array}\right.
+\ \Longrightarrow \
+x\in(-\infty,-1)
+\end{array}\right\rbrace
+\ \Longrightarrow \
+x\in(-\infty,-1)\cup(0,+\infty)
+\end{equation*}
+Per tant la segona solució és $(-\infty,-1)\cup(0,+\infty)$.
+\\
+\\
+\\
+La solució de la inequació és la intersseció entre les dues solucions, és a dir:
+\begin{equation*}
+(-1,2)\cap((-\infty,-1)\cup(0,+\infty))=(0,2) \ \Longrightarrow \ x\in(0,2)
+\end{equation*}
+\newpage
+\section*{Ex.2 $x^3-x^2+2x-2<0$}
+Primer, la passam a una equació de tercer grau com $x^3-x^2+2x-2=0$ que té per solució real $x=1$ i dues solucions imaginàries que són prescindibles com són $x=\sqrt{2}i \ \wedge \ x=-\sqrt{2}i$.
+\\
+Cream una taula de valors:
+\begin{table}[h!]
+\begin{center}
+\begin{tabular}{c|c}
+$\ominus$ & $\oplus$\\
+\hline
+$(-\infty,1)$ & $(1,+\infty)$
+\end{tabular}
+\end{center}
+\end{table}
+\\
+Per tant la solució de la inequació és:
+$(-\infty, 1) \ \Longrightarrow \ x\in(-\infty, 1)$
+\\
+\section*{Ex.3 $|x+3|+|x-1|\geq5$}
+Primer desenvolupam els valors absoluts:
+\begin{equation*}
+|x+3|=\left\lbrace
+\begin{array}{cc}
+x+3 \ \ \ \text{si} \ \ x\geq-3
+\\ -x-3 \ \ \ \text{si} \ \ x<-3
+\end{array}\right.
+\ \wedge \
+|x-1|=\left\lbrace
+\begin{array}{cc}
+x-1 \ \ \ \text{si} \ \ x\geq1
+\\ -x+1 \ \ \ \text{si} \ \ x<1
+\end{array}\right.
+\end{equation*}
+Ara resolem la casuística per trams que venen mercats pels punts de canvi en els valors absoluts:
+\begin{itemize}
+\item $x<-3$:
+\begin{equation*}
+|x+3|+|x-1|\geq5 \Leftrightarrow -x-3-x+1\geq5 \Leftrightarrow -2x-2\geq5 \Leftrightarrow -2x\geq7 \Leftrightarrow x\leq-\frac{7}{2} \ \Longrightarrow \ x\in\Bigg(-\infty,-\frac{7}{2}\Bigg]
+\end{equation*}
+\item $x\in[-3,1)$:
+\begin{equation*}
+|x+3|+|x-1|\geq5 \Leftrightarrow x+3-x+1\geq5 \Leftrightarrow 4\geq5
+\end{equation*}
+Però $4\geq5$ no és cert perquè $4\notin[-3,1) \ \Longrightarrow$ la solució és $\emptyset$.
+\item $x\geq1$:
+\begin{equation*}
+|x+3|+|x-1|\geq5 \Leftrightarrow x+3+x-1\geq5 \Leftrightarrow 2x+2\geq5 \Leftrightarrow 2x\geq3 \Leftrightarrow x\leq\frac{3}{2} \ \Longrightarrow \ x\in\Bigg[\frac{3}{2},+\infty\Bigg)
+\end{equation*}
+\end{itemize}
+En definitva, la solució a la inequació és:
+\begin{equation*}
+\Bigg(-\infty,-\frac{7}{2}\Bigg]\cup\emptyset\cup\Bigg[\frac{3}{2},+\infty\Bigg) = \Bigg(-\infty,-\frac{7}{2}\Bigg]\cup\Bigg[\frac{3}{2},+\infty\Bigg)=\mathbb{R}\setminus\Big(-\frac{7}{2},\frac{3}{2}\Big)
+\end{equation*}
