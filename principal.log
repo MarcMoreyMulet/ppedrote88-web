@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.14)  17 MAR 2026 10:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.1) (preloaded format=pdflatex 2026.2.14)  17 MAR 2026 10:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -350,7 +350,7 @@ File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 ) (principal.aux
 Package babel Info: 'catalan' activates 'catalan' shorthands.
 (babel)             Reported on input line 8.
-)
+ (Exercici_1.aux) (exercici_2.aux))
 \openout1 = `principal.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
@@ -483,19 +483,35 @@ r/m/n/10 1 \OMS/cmsy/m/n/10 ^^U \OT1/cmr/m/n/10 5 \OMS/cmsy/m/n/10 , \OT1/cmr/m
  2 [][]\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 +\OMS/cmsy/m/n/10 1[]
  []
 
-) [2] (principal.aux (Exercici_1.aux))
+) [2]
+\openout2 = `exercici_2.aux'.
+
+ (exercici_2.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+) [3
+
+
+
+] (principal.aux (Exercici_1.aux) (exercici_2.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `principal.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Checksum: 6B45263E88315A3A7A6AD10D2F6B4E96;96.
  ) 
 Here is how much of TeX's memory you used:
- 11640 strings out of 467866
- 179676 string characters out of 5421160
- 615574 words of memory out of 5000000
- 40382 multiletter control sequences out of 15000+600000
+ 11679 strings out of 467866
+ 180720 string characters out of 5421160
+ 616339 words of memory out of 5000000
+ 40408 multiletter control sequences out of 15000+600000
  631607 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,13n,79p,285b,468s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -510,9 +526,9 @@ public/amsfonts/cm/cmr12.pfb><C:/Users/Marc Clara/Desktop/APPS/LaTeX/fonts/type
 1/public/amsfonts/cm/cmr7.pfb><C:/Users/Marc Clara/Desktop/APPS/LaTeX/fonts/typ
 e1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Marc Clara/Desktop/APPS/LaTeX/fonts/
 type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on principal.pdf (2 pages, 98092 bytes).
+Output written on principal.pdf (3 pages, 102044 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
- 6 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 PDF objects out of 1000 (max. 8388607)
+ 10 named destinations out of 1000 (max. 500000)
+ 9 words of extra memory for PDF output out of 10000 (max. 10000000)
 
