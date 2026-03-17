@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.9)  17 MAR 2026 10:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.9)  17 MAR 2026 10:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -350,8 +350,10 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 tex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count311
+) (principal.aux
+Package babel Info: 'catalan' activates 'catalan' shorthands.
+(babel)             Reported on input line 8.
 )
-No file principal.aux.
 \openout1 = `principal.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
@@ -398,22 +400,41 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package babel Info: 'catalan' activates 'catalan' shorthands.
-(babel)             Reported on input line 12.
 LaTeX Info: Redefining \l on input line 12.
 LaTeX Info: Redefining \L on input line 12.
 Package hyperref Info: Link coloring OFF on input line 12.
+ (principal.out) (principal.out)
 \@outlinefile=\write3
 \openout3 = `principal.out'.
 
- [1
+\openout2 = `exercici_2.aux'.
+
+ (exercici_2.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
+(C:\Users\plped\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
+
+(C:\Users\plped\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
+[1
+
 
 {C:/Users/plped/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-(principal.aux)
+(principal.aux (exercici_2.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package rerunfilecheck Warning: File `principal.out' has changed.
@@ -421,22 +442,27 @@ Package rerunfilecheck Warning: File `principal.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `principal.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  6B45263E88315A3A7A6AD10D2F6B4E96;96.
  ) 
 Here is how much of TeX's memory you used:
- 11538 strings out of 467871
- 178226 string characters out of 5418377
- 603437 words of memory out of 5000000
- 40307 multiletter control sequences out of 15000+600000
- 627721 words of font info for 40 fonts, out of 8000000 for 9000
+ 11619 strings out of 467871
+ 180135 string characters out of 5418377
+ 606492 words of memory out of 5000000
+ 40358 multiletter control sequences out of 15000+600000
+ 630360 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,5n,79p,253b,466s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/plped/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmr10.pfb>
-Output written on principal.pdf (1 page, 13115 bytes).
+ 75i,5n,79p,253b,467s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\plped\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
+1000.pk><C:/Users/plped/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmbx12.pfb><C:/Users/plped/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmmi10.pfb><C:/Users/plped/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmr10.pfb><C:/Users/plped/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/plped/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on principal.pdf (1 page, 55542 bytes).
 PDF statistics:
- 16 PDF objects out of 1000 (max. 8388607)
- 2 named destinations out of 1000 (max. 500000)
+ 44 PDF objects out of 1000 (max. 8388607)
+ 5 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
